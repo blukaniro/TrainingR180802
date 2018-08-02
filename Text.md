@@ -143,7 +143,7 @@ summary(aov(RLD~Limitation*Inoculation, sd8))
 ```  
   
 ## 3-2. multiple comparison  
-### TuleyHSD  
+### TukeyHSD  
 ```R  
 d2<-read.table("Test2.txt", header=T)
 result<-aov(SDW~Treatment, d2)  
